@@ -1,0 +1,105 @@
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #DDDDDD;
+	margin-right: 200px;
+}
+small{
+	color: #b69877;
+}
+small a, 
+p a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #5b264e;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top:20px;
+	margin-left:80px;
+	font-family: 'Righteous', cursive;
+}
+
+/* Content */
+
+.page{
+	background: url(../img/twd-logo.png) right top no-repeat;
+}
+.one{
+	background-color: #ae6c66;
+}
+	.one .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.one .page-container h2{
+			font-size: 4em;
+		}
+		.one .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.two{
+	background-color: #b69877;
+}
+	.two .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.two .page-container h2{
+			font-size: 4em;
+		}
+		.two .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.three{
+	background-color: #036564;
+}
+	.three .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.three .page-container h2{
+			font-size: 4em;
+		}
+		.three .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}

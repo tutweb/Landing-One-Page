@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>DEMO :: Landing Page - Tutorial-webdesign.com</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<img src="img/twd-logo-mini.png" alt="logo twd mini">
+		<h1><a href="http://www.tutorial-webdesign.com">Tutorial-WebDesign<small>.com</small></a></h1>
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>TWD</h2>
+				<p>TWD fokus pada untuk terus memberikan tutorial yang bermanfaat untuk pembaca setia tutorial-webdesign.com</p>
+				<p><small><a href="http://www.tutorial-webdesign.com/membuat-landing-page-bergaya-flat-design">&laquo; back to tutorial</a> | <a href="index.html">Demo 1</a></small></p>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>@tut_web</h2>
+				<p>Update info terbaru seputar dunia website di twitter kami @tut_web, dan jangan sungkan untuk bertanya atau berdiskusi melalui twitter kami dengan mention langsung akun @tut_web</p>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				<h2>Page <small> & Forum</small></h2>
+				<p>Like Facebook Tutorial Web Design untuk mendapatkan informasi terbaru melalui facebook di URL <a href="https://www.facebook.com/tutwebdesign">https://www.facebook.com/tutwebdesign</a></p>
+				<p>Anda juga bisa bergabung dengan Forum / Group Web Design Indonesia di URL <a href="https://www.facebook.com/groups/384602841634161/">https://www.facebook.com/groups/384602841634161/</a> </p>
+			</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+		easing: "cubic-bezier(0.180, 0.900, 0.410, 1.210)"
+	});
+	</script>
+
+</body>
+</html>

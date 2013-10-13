@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>DEMO :: Landing Page - Tutorial-webdesign.com</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<img src="img/twd-logo-mini.png" alt="logo twd mini">
+		<h1><a href="http://www.tutorial-webdesign.com">Tutorial-WebDesign<small>.com</small></a></h1>
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+				<h2>Tutorial</h2>
+				<p>TWD fokus pada untuk terus memberikan tutorial yang bermanfaat untuk pembaca setia tutorial-webdesign.com</p>
+				<p><small><a href="http://www.tutorial-webdesign.com/membuat-landing-page-bergaya-flat-design">&laquo; back to tutorial</a> | <a href="index2.html">Demo 2 Bounce Effect</a></small></p>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>Web</h2>
+				<p>Konten di website tutorial-webdesign.com sebagian besar adalah hal-hal yang berhubungan dengan pembuatan website</p>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				<h2>Design<small> &bull; Indonesia</small></h2>
+				<p>Dunia desain juga menjadi bidang yang banyak dibawas di tutorial-webdesign.com, bukan hanya desain web, namun juga hal-hal lain yang berhubungan dengan dunia desain grafis</p>
+				<p>Untuk itu kami mengundang anda yang bergerak di dunia web design & development ataupun dunia desain grafis untuk ikut menyumbangkan ilmu di tutorial-webdesign.com dengan menjadi penulis.</p>
+			</div>
+		</section>
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
